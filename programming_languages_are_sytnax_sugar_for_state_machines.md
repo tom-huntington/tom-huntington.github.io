@@ -20,7 +20,7 @@ The hacker news thread on Russ' article was a good read,
 in particular this comment [https://news.ycombinator.com/item?id=36687736](https://news.ycombinator.com/item?id=36687736)
 > What's really unfortunate is that compilers already perform this "control flow -> state machine" transformation, but almost none of them expose it to the user for direct manipulation - instead, they tightly couple it to a bunch of unrelated abstractions like event loop runtimes, async executors, managed stacks, etc. I'd kill for a compiler that can properly:
 
-What if we had a programming language where the fundamental building block and composable unit was state machines?
+What if we had a programming language where the fundamental building block and composable unit were state machines?
 Syntax sugar could be layered on top.
 
 The C programming language doesn't abstract out the underlying Von-Neumann Architecture, and most modern programming languages are just an artifact of c.
