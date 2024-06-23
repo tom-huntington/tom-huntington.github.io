@@ -14,7 +14,7 @@ There is an isomorphism between programming languages and state machines.
 
 > Unless you need to reify the application state, there's no strong reason to explicitly encode the program state as an automaton. In most cases, expressing control flow using structured programming (loops, conditionals) and functions is much clearer, and much easier to debug. In the context of parsers, this amounts to writing a recursive-descent parser instead of writing an LL(k) state transition table by hand. In concurrent programming, this amounts to writing code with async/await and letting the compiler transform it into a state machine, rather than writing an event loop by hand.
 
-*Comment on a auto deleted stackexchange question*.
+*Comment on an auto deleted stackexchange question*.
 
 The hacker news thread on Russ' article was a good read,
 in particular this comment [https://news.ycombinator.com/item?id=36687736](https://news.ycombinator.com/item?id=36687736)
@@ -25,6 +25,6 @@ Syntax sugar could be layered on top.
 
 The C programming language doesn't abstract out the underlying Von-Neumann Architecture, and most modern programming languages are just an artifact of c.
 Haskell is one of the few languages that truly abstracts out Von-Neumann.
-Maybe state machine programming language could also properly abstract way Von-Neumann,
+Maybe a state machine programming language could also properly abstract way Von-Neumann,
 and be less of a toy language than Haskell is.
 
