@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="date" content='2024-07-02'>
+    <title>flexible_malleable_code</title>
+    <link rel="stylesheet" href="output.css">
+  </head>
+  <body>
+    <article>
+<p>The key for writing flexible and malleable code is writing generic code. There are two ways to achieve generic code.</p>
+<ul>
+<li>monomorphization</li>
+<li>type erasure</li>
+</ul>
+<blockquote>
+<p>Now, for contiguous ranges the story is a bit different, since you can always store just (T*, size_t) and it doesn’t matter what the original range was. It’s still type erasure, but it’s free - there’s no added overhead. So span<T> is great in that regard.</p>
+</blockquote>
+<p><a href="https://stackoverflow.com/a/68584050/11998382">https://stackoverflow.com/a/68584050/11998382</a></p>
+<p>The principle for writing generic code is:</p>
+<blockquote>
+<p>I don’t want to know https://youtu.be/V5SCJIWIPjk?t=1026</p>
+</blockquote>
+<p>Program to interfaces, traits, type-erased types.</p>
+<p>Functions should always accept a <code>span</code> over a <code>vector</code>, always accept a <code>string_view</code> over a <code>string</code>. These are the type erased counterparts.</p>
+<p>Modules should provide their own type erased objects for their API.</p>
+<h1 id="heading">heading</h1>
+</article>
+  </body>
+</html>

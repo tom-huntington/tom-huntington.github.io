@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+    font-size: 200%;
+}
+
+ul {
+    @apply list-disc
+    list-inside
+    ;
+}
+
+article {
+    @apply mx-auto
+    max-w-prose
+    ;
+}
+
+blockquote {
+    @apply font-bold;
+}
+
