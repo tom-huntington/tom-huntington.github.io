@@ -14,11 +14,11 @@ The principle for writing generic code is:
 > I don't want to know
 https://youtu.be/V5SCJIWIPjk?t=1026
 
-Program to interfaces, traits, type-erased types.
+Program to interfaces, traits or type-erased types.
 
 Functions should always accept a `span` over a `vector`, always accept a `string_view` over a `string`.
 These are the type erased counterparts.
 
 Modules should provide their own type erased objects for their API.
 
-# heading
+Generic programming is the only paradigm of programming that produces code capable of reuse.
